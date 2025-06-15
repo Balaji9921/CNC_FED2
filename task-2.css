@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.nav-items-section {
+    display: none;
+}
+
+.cancel-icon {
+    display: none;
+}
+
+.cancel-icon-display {
+    display: inline;
+}
+
+.bar-icon-hide {
+    display: none;
+}
+
+.menu-section {
+    background-color: #ffffff;
+    display: none;
+}
+
+.menu-section-display {
+    display: inline;
+}
+
+.menu-card {
+    height: 45px;
+    border-top-color: #e7e5ea;
+    border-top-style: solid;
+    border-width: 1px;
+    padding-top: 12px;
+}
+
+.menu-title {
+    font-size: 16px;
+    font-family: "Roboto";
+    margin-top: 12px;
+    margin-left: 15px;
+    color: #594d6d;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.button-menu-card {
+    height: 65px;
+    padding: 12px;
+}
+
+.sign-up-button {
+    background-color: #ffdda9;
+    color: #12022f;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 14px;
+    width: 90px;
+    font-weight: 700;
+}
+
+.banner-container {
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-sm-bg.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.menu-section-display {
+    display: inline;
+}
+
+@media (min-width:768px) {
+    .nav-items-section {
+        display: inline;
+    }
+
+    .icon-container {
+        display: none;
+    }
+
+    .nav-container {
+        align-items: center;
+        padding: 8px;
+    }
+
+    .nav-items {
+        display: flex;
+        list-style: none;
+        width: 380px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-title {
+        font-weight: 700;
+        color: #12022f;
+    }
+
+    .banner-container {
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-lg-bg.png');
+        background-size: cover;
+        align-items: center;
+    }
+}
